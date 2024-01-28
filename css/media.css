@@ -1,0 +1,33 @@
+@media only screen and (max-width: 320px) {
+    .clock{
+        height: 120px;
+        width: 120px;
+    }
+    .hour{
+        height: 30px;
+        width: 5px;
+        top: 35px;
+    }
+    .minute{
+        height: 40px;
+        width: 3px;
+        top: 23px;
+    }
+    .second{
+        height: 45px;
+        width: 2px;
+        top: 18px;
+    }
+    .h12, .h3, .h6, .h9{
+        font-size: 15px;
+    }
+    #time, #midday{
+        font-size: 20px;
+    }
+    .container {
+        width: fit-content;
+    }
+    .wrapper {
+        padding: 10px;
+    }
+}
